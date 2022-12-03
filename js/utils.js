@@ -315,7 +315,13 @@ NexT.utils = {
       translateY: [0, -20],
       complete  : () => {
         // Prevent adding TOC to Overview if Overview was selected when close & open sidebar.
+        if (activeClassName[index] === 'sidebar-toc-active') {
+          document.querySelector("div.sidebar-inner.sidebar-blogroll").classList.add("sidebar-links-visible");
+        } else {
+          document.querySelector("div.sidebar-inner.sidebar-blogroll").classList.remove("sidebar-links-visible");
+        }
         sidebar.classList.replace(activeClassName[1 - index], activeClassName[index]);
+        
         window.anime({
           duration,
           targets   : panel,
