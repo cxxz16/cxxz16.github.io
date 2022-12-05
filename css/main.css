@@ -242,7 +242,7 @@ embed {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 75%;
 }
 hr {
   background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 4px, transparent 4px, transparent 8px);
@@ -2636,7 +2636,7 @@ hr {
   transition: all 0.2s ease-in-out;
 }
 .links-of-author a::before {
-  background: #fff;
+  background: #ffffc2;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
