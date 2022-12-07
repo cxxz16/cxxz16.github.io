@@ -150,18 +150,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -213,7 +213,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%B8%89/">
+    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/06/DiceCTF2022-memoryhole-V8%E6%B2%99%E7%AE%B1%E7%BB%95%E8%BF%87/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -231,7 +231,99 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%B8%89/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(三)</a>
+          <a href="/2022/12/06/DiceCTF2022-memoryhole-V8%E6%B2%99%E7%AE%B1%E7%BB%95%E8%BF%87/" class="post-title-link" itemprop="url">DiceCTF2022 memoryhole & V8沙箱绕过</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-12-06 11:38:58" itemprop="dateCreated datePublished" datetime="2022-12-06T11:38:58+08:00">2022-12-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-12-07 15:32:18" itemprop="dateModified" datetime="2022-12-07T15:32:18+08:00">2022-12-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%A2%98%E7%9B%AE%E5%A4%8D%E7%8E%B0/" itemprop="url" rel="index"><span itemprop="name">题目复现</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>DiceCTF2022 memoryhole 题目复现与两种 V8 沙箱绕过方式学习。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/12/06/DiceCTF2022-memoryhole-V8%E6%B2%99%E7%AE%B1%E7%BB%95%E8%BF%87/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="cxxz">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cxxz's blog">
+      <meta itemprop="description" content="ucas | information security">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | cxxz's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%89/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(三)</a>
         </h2>
 
         <div class="post-meta-container">
@@ -268,7 +360,7 @@
           <p>Pipe_primitive 与 CVE-2022-0185 File System Context 整数溢出漏洞利用。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%B8%89/#more" rel="contents">
+              <a class="btn" href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%89/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -299,7 +391,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%BA%8C/">
+    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%BA%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -317,7 +409,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%BA%8C/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(二)</a>
+          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%BA%8C/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(二)</a>
         </h2>
 
         <div class="post-meta-container">
@@ -367,7 +459,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%B8%80/">
+    <link itemprop="mainEntityOfPage" href="http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%80/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -385,7 +477,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E8%A7%A3%E6%B3%95-%E4%B8%80/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(一)</a>
+          <a href="/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%80/" class="post-title-link" itemprop="url">CVE-2022-0185的三种解法(一)</a>
         </h2>
 
         <div class="post-meta-container">
