@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2023/01/11/CVE-2021-4154/</loc>
+    
+    <lastmod>2023-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%BA%8C/</loc>
+    
+    <lastmod>2023-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%89/</loc>
+    
+    <lastmod>2023-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/05/CVE-2022-0185%E7%9A%84%E4%B8%89%E7%A7%8D%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F-%E4%B8%80/</loc>
+    
+    <lastmod>2023-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2023/01/04/seccomp%E5%92%8C%E6%9C%80%E8%BF%91%E9%81%87%E5%88%B0%E7%9A%84sandbox/</loc>
+    
+    <lastmod>2023-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/10/ebpf%E7%9A%84%E5%88%A9%E7%94%A8/</loc>
+    
+    <lastmod>2022-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/06/DiceCTF2022-memoryhole-V8%E6%B2%99%E7%AE%B1%E7%BB%95%E8%BF%87/</loc>
+    
+    <lastmod>2022-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/2022/12/02/CVE-2022-2639/</loc>
+    
+    <lastmod>2022-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/about/index.html</loc>
+    
+    <lastmod>2022-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/404/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/categories/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://www.cxxz16.xyz/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/kernel/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/cve/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/FUSE/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/V8/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/sandbox/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/ebpf/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/seccomp/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/tags/sanbox/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/categories/cve-%E5%A4%8D%E7%8E%B0/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/categories/%E9%A2%98%E7%9B%AE%E5%A4%8D%E7%8E%B0/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cxxz16.xyz/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/%E9%A2%98%E7%9B%AE%E5%A4%8D%E7%8E%B0/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
