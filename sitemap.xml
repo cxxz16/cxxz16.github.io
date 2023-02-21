@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.cxxz16.xyz/2023/02/06/JSC%E5%85%A5%E9%97%A8%E4%B8%8EInCTF2021-DeadlyFastGraph/</loc>
+    
+    <lastmod>2023-02-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/2023/02/12/CVE-2022-32792/</loc>
+    
+    <lastmod>2023-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/2023/02/09/LLVM%E5%85%A5%E9%97%A8%E4%B8%8ECSCD70%E7%9A%84Assignments/</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/2023/01/23/lua-pwn/</loc>
+    
+    <lastmod>2023-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/2023/01/20/corCTF2022-cache-of-castaways/</loc>
+    
+    <lastmod>2023-01-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.cxxz16.xyz/2023/01/11/CVE-2021-4154/</loc>
     
     <lastmod>2023-01-16</lastmod>
@@ -112,7 +157,7 @@
 
   <url>
     <loc>https://www.cxxz16.xyz/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,56 +165,98 @@
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/kernel/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/cve/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/FUSE/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/V8/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/sandbox/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/ebpf/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/seccomp/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/tags/sanbox/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/LLVM-IR/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/LLVM-pass/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/lua/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/browser/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/jsc/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/tags/JSC/</loc>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -178,28 +265,35 @@
   
   <url>
     <loc>https://www.cxxz16.xyz/categories/cve-%E5%A4%8D%E7%8E%B0/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/categories/%E9%A2%98%E7%9B%AE%E5%A4%8D%E7%8E%B0/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.cxxz16.xyz/categories/%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0/%E9%A2%98%E7%9B%AE%E5%A4%8D%E7%8E%B0/</loc>
-    <lastmod>2023-01-16</lastmod>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cxxz16.xyz/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
+    <lastmod>2023-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
